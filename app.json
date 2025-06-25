@@ -20,10 +20,21 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.mark.appiagyei.PlaygroundProject",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCJPvhSvE-OZIOeaQGDHmltD8bDHsr8BEs"
+        }
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "367df8ff-f41a-4794-adc2-43c7062a4650"
+      }
     }
   }
 }
