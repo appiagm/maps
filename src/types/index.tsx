@@ -1,19 +1,33 @@
-export interface Merchant {
+export interface Bazar {
     id: number;
+    created_at: string;
+    owner_id: string;
     name: string;
+    description: string;
+    category: string;
+    phone: string;
+    email: string;
+    website: string;
+    location: {
+        latitude: number;
+        longitude: number;
+    };
+    business_hours: string;
+    profile_image: string;
+    is_active: boolean;
+    updated_at: string;
+    // For map compatibility
     position: {
         latitude: number;
         longitude: number;
     };
-    description: string;
-    category: string;
     imageUrl: string;
 }
 
 export interface Message {
     id: string; // Use unique IDs for keys
     text: string;
-    type: 'user' | 'merchant' | 'system' | 'error';
+    type: 'user' | 'bazar' | 'system' | 'error';
 }
 
 // Define Place Details structure from Google Places Autocomplete

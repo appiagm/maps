@@ -1,0 +1,9 @@
+# Copy this content to create your .env file
+# 
+# Instructions:
+# 1. Create a new file called .env in your project root (same level as package.json)
+# 2. Copy the content below into that .env file
+# 3. Replace the placeholder values with your actual Supabase credentials
+
+EXPO_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
+EXPO_PUBLIC_SUPABASE_ANON_KEY=your-anon-key-here 

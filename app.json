@@ -22,6 +22,10 @@
       },
       "edgeToEdgeEnabled": true,
       "package": "com.mark.appiagyei.PlaygroundProject",
+      "permissions": [
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ],
       "config": {
         "googleMaps": {
           "apiKey": "AIzaSyCJPvhSvE-OZIOeaQGDHmltD8bDHsr8BEs"

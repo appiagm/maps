@@ -9,15 +9,19 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@react-native-community/geolocation": "^3.4.0",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-native-picker/picker": "^2.11.1",
+    "@supabase/supabase-js": "^2.52.0",
     "expo": "~53.0.7",
     "expo-location": "~18.1.5",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
     "react-native": "0.79.2",
+    "react-native-country-picker-modal": "^2.0.0",
     "react-native-gesture-handler": "~2.24.0",
     "react-native-get-random-values": "~1.11.0",
     "react-native-google-places-autocomplete": "^2.5.7",
+    "react-native-localize": "^3.5.1",
     "react-native-maps": "1.23.6",
     "react-native-reanimated": "~3.17.4",
     "react-native-safe-area-context": "5.4.0"
@@ -25,6 +29,7 @@
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~19.0.10",
+    "supabase": "^2.31.8",
     "typescript": "~5.8.3"
   },
   "private": true
